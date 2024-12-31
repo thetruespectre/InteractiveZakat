@@ -9,8 +9,8 @@ export default function CalculationPage() {
           <CalculationForm />
         </div>
 
-        <div className="text-center relative">
-          <img src={image} className="w-4/5 top-24 absolute" />
+        <div className="text-center flex items-center">
+          <img src={image} />
         </div>
       </div>
     </>
