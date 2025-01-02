@@ -26,7 +26,7 @@ export function CalculationForm() {
       <FormContext.Provider
         value={{ register, handleSubmit, calculate, isSubmitSuccessful }}
       >
-        <form className="block">
+        <form className="w-4/5 ml-1">
           <Tile>
             <NumberField label={"Cash"} id={"cash"} />
             <NumberField label={"Business Investments"} id={"investBiz"} />
